@@ -24,6 +24,10 @@ def prompt_to_yaml(model, prompt):
     response = model.generate_content(f"{system_prompt}\n\nRequirements:\n{prompt}")
     return response.text
 
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
 @app.route('/generate', methods=['POST'])
 def generate():
     data = request.json
