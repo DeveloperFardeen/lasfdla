@@ -40,7 +40,7 @@ def generate():
     try:
         model = init_gemini(api_key)
         yaml_config = prompt_to_yaml(model, prompt)
-        return yaml_config, prompt
+        return jsonify({"yaml_config": yaml_config, "prompt": prompt})
     except Exception as e:
         return str(e), 500
     
