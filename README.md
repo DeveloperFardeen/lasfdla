@@ -15,7 +15,6 @@ A lightweight solution that allows users to embed an AI-powered YAML generator d
 
 📌 **To Integrate:** Copy & paste the following snippet into your Spheron page:
 ```html
-  
     <button onclick="openAiYamlPopup()" class="btn btn-primary" id="generateYamlBtn"><img src="star.webp" width="30">Generate with AI</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-yaml.min.js"></script>
@@ -26,7 +25,7 @@ A lightweight solution that allows users to embed an AI-powered YAML generator d
         Prism.highlightAll();
     });
     </script>
-    ```
+```
 
 ## How It Works
 - **Web App:** Enter deployment details → Get YAML instantly.
