@@ -18,7 +18,7 @@ A lightweight solution that allows users to embed an AI-powered YAML generator d
     <button onclick="openAiYamlPopup()" class="btn btn-primary" id="generateYamlBtn"><img src="star.webp" width="30">Generate with AI</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-yaml.min.js"></script>
-    <script src="https://bhadanialbums.in/yaml-gen-cdn.js?v=1.0.6"></script>
+    <script src="https://bhadanialbums.in/yaml-gen.js"></script>
     <script>
         // Apply syntax highlighting to YAML content
         document.addEventListener('DOMContentLoaded', (event) => {
