@@ -43,6 +43,11 @@ def generate():
         return yaml_config, prompt
     except Exception as e:
         return str(e), 500
+    
+@app.route('/api', methods=['POST'])
+def process():
+    data = request.json
+    return jsonify({"message": "Success", "data": data})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000)
+    app.run(debug=True)
