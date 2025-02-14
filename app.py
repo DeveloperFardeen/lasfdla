@@ -44,7 +44,7 @@ def hello_world():
 @app.route('/generate', methods=['POST'])
 def generate():
     data = request.json
-    api_key = 'AIzaSyD2Xw1zRSrsoDMCb7ATtjqvQDVRJMtFCF4'
+    api_key = 'AIzaSyAH7k2CnME9Lxb-qQbfbdAeTY9NNp6J4a8'
     prompt = data.get('prompt')
     
     if not api_key or not prompt:
